@@ -1,0 +1,77 @@
+.banner-img img {
+  position: absolute;
+  -webkit-animation: DesktopHero_hover 1.5s infinite alternate ease-in-out;
+  animation: DesktopHero_hover 1.5s infinite alternate ease-in-out;
+}
+
+@-webkit-keyframes DesktopHero_hover {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  to {
+    -webkit-transform: translateY(-5%);
+    transform: translateY(-5%);
+  }
+}
+
+@keyframes DesktopHero_hover {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  to {
+    -webkit-transform: translateY(-5%);
+    transform: translateY(-5%);
+  }
+}
+
+.banner-img {
+  width: 30%;
+  float: left;
+  position: relative;
+  height: 500px;
+}
+
+.banner_inner {
+  display: flex;
+  align-items: center;
+}
+
+img.coff {
+  bottom: 42px;
+  left: -134px;
+  width: 192px;
+  z-index: +9;
+}
+
+img.mar {
+  bottom: 35px;
+  left: -70px;
+  width: 275px;
+}
+
+img.pop {
+  bottom: 35px;
+  left: 65px;
+  width: 250px;
+}
+
+img.text {
+  bottom: 35px;
+  right: 6px;
+  width: 126px;
+  z-index: +9;
+}
+
+img.type {
+  bottom: 35px;
+  right: -106px;
+  width: 200px;
+}
+
+section {
+  overflow: hidden;
+}
