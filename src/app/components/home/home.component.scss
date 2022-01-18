@@ -75,3 +75,22 @@ img.type {
 section {
   overflow: hidden;
 }
+
+
+
+
+
+@media only screen and (max-width:479px) {
+  section#banner {
+    background-size: 235% !important;
+    background-position: 75% bottom !important;
+}
+.banner-img {
+  height: 400px;
+  width: 100%;
+}
+
+.banner_inner {
+  flex-wrap: wrap;
+}
+}

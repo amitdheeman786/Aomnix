@@ -360,18 +360,29 @@ header.header {
 //  Section solutions
 
 .solutions {
-  margin-bottom:50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
 
   .col-md-4 {
-    margin-bottom: 50px;
+    margin-bottom:30px;
 
     &:last-child {
       margin-bottom: 0px;
     }
 
     .box-inner {
+      text-align: center;
+      border-radius: 10px 10px 10px 10px;
+      box-shadow: 0px 10px 51px 3px rgb(0 0 0 / 15%);
+      background: #fff;
+      padding: 60px 30px;   transition: 0.5s ease-in-out; 
+      cursor: pointer;
+      &:hover{transition: 0.5s ease-in-out;
+        box-shadow: 0px 10px 51px 3px rgb(0 0 0 / 40%);
+
+      }
       img {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
         height: 75px;
       }
 
@@ -397,7 +408,9 @@ header.header {
           }
         }
       }
+      
     }
+    
   }
 }
 
@@ -406,20 +419,24 @@ header.header {
 .our-products {
   background: #103654;
   padding: 50px 0px;
-}
+  margin-bottom: 50px;}
 
 .our-products .section-title {
-  color: #fff;
+  color: #fff;margin-bottom: 8px;
 }
 
 .row-title {
   color: #FFFFFF;
   opacity: 0.59;
-  font-size: 25px;
+  font-size: 16px;
+  font-weight: 300;
   line-height: 28px;
   margin-bottom:20px;
 }
-
+.pro-bottom>span {
+  font-size: 14px;
+  line-height: 19px;
+}
 .row-inner {
   margin-bottom: 35px;
 }
@@ -430,12 +447,14 @@ header.header {
 
 .row-inner .row>div {
   padding: 0px 20px;
+  margin-bottom: 30px;
 }
 
 .pro-box {
   background: #fff;
   padding: 12px;
   border-radius: 12px;
+  height: 100%;
 }
 
 .pro-box .image-bg {
@@ -601,7 +620,17 @@ header.header {
   }
 }
  
+.solutions .section-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
 
+.solutions .sub_title {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
 
 
 // Responsive
